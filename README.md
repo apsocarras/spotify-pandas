@@ -8,13 +8,14 @@
 
 _Assignment Instructions_
 
+**Profiling**
 * For each dataset, profile the data using head(), tail(), and .shape(). Write a comment for each one, briefly explaining what this technique does, and what the output you got tells you about the dataset.
 
 * For Albums, use .loc or iloc to show just rows 10-20 of the 'name' and 'release_date' columns
 
-* Clean and normalize each dataset:
+**Cleaning and normalizing**
 
-    - Remove duplicates from each dataset
+* Remove duplicates from each dataset
 
 * For Artists:
 
@@ -29,14 +30,18 @@ _Assignment Instructions_
     - Drop the lyrics column
 
     - Print the names of the Tracks columns again, to show that the 'lyrics' column has been dropped
+  
+**Joining**
 
-    Using Pandas, perform the following joins, choosing the join type that you think is appropriate. Make a comment in your code file on why you chose that join type.
+*  Using Pandas, perform the following joins, choosing the join type that you think is appropriate. Make a comment in your code file on why you chose that join type.
 
     - Join artists and albums on the artist ID. Print the head() and shape of the resulting DataFrame.
 
     - Join albums and tracks on the album ID. Print the head() and shape of the resulting DataFrame.
 
-    Use the Pandas to calculate the following statistics on the data, and print the results:
+**Analyzing**
+
+* Use Pandas to calculate the following statistics on the data, and print the results:
 
     - Which artists appear the most times in the Artists data?
 
