@@ -9,5 +9,5 @@ env.bak/
 venv.bak/
 *_venv/
 # Data sets
-data/.
+data/spotify*
 
